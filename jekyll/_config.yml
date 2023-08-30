@@ -1,0 +1,48 @@
+
+url: "https://perlkohacon.fi"
+#url: "_site" # the base hostname & protocol for your site, e.g. https://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+
+title: |-
+  Perl and Koha Conference in Helsinki, 14-18 August 2023. REGISTRATION is OPEN NOW!
+
+email: perlkohacon@gmail.com
+description_noreformat: |-
+  Conference will be in Helsinki city center, at the University of Helsinki, Finland, 14-18 August 2023.
+   - 🗓️ three main days (14-16 August) three Perl and Koha streams of talks.
+   - 🗓️ two days (17-18 August) of workshops, discussions and trainings.
+   - Social events, and more planned. Find tourist and events info on site.
+
+  Week 33, so we recommend to plan tourist & family trip in range 12-20 (Sat-Sun):
+  we will propose Companion Guidance for your family and friends who come with you.
+
+  Follow our Telegram stream: https://t.me/PerlKohaCon
+
+
+# Build settings
+#theme: perlkohacon
+# minima
+
+plugins:
+  - jekyll-feed
+
+timezone: Europe/Helsinki
+
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+
+# include:
+#  - gemfiles/overide-one-file
+
+destination:
+    ../docs
